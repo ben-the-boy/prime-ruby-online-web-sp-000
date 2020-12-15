@@ -3,5 +3,6 @@ def prime?(number)
     return false 
   else 
     if (2..n).any? {|i| n % i == 0}
-      
+      return false
+    else
 end
